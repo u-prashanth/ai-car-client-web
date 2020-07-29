@@ -1,0 +1,23 @@
+@font-face
+{
+    font-family: 'Graphik Regular';
+    src: url('https://cdn.technaviofacilities.com/fonts/GraphikRegular.otf') format('opentype');
+}
+
+@font-face
+{
+    font-family: 'Gilroy ExtraBold';
+    src: url('https://cdn.technaviofacilities.com/fonts/GilroyExtraBold.otf') format('opentype');
+}
+
+
+// Abstract
+@import './abstract/variables';
+
+// Base
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+// Layouts
+@import './layouts/layout'
